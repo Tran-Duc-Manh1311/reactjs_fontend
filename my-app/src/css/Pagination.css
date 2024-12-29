@@ -1,0 +1,39 @@
+/* src/Pagination.css */
+.pagination {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    /* Hiển thị phân trang theo hàng ngang */
+    justify-content: center;
+    /* Căn giữa phân trang */
+}
+
+.page-item {
+    margin: 0 5px;
+    /* Khoảng cách giữa các nút */
+}
+
+.page-link {
+    padding: 5px 10px;
+    /* Khoảng cách trong nút */
+    border: 1px solid #007bff;
+    /* Đường viền cho nút */
+    background-color: #fff;
+    /* Màu nền nút */
+    cursor: pointer;
+    /* Hiển thị con trỏ khi hover */
+}
+
+.page-link:hover {
+    background-color: #007bff;
+    /* Màu nền khi hover */
+    color: #fff;
+    /* Màu chữ khi hover */
+}
+
+.active .page-link {
+    background-color: #007bff;
+    /* Màu nền cho nút hiện tại */
+    color: #fff;
+    /* Màu chữ cho nút hiện tại */
+}

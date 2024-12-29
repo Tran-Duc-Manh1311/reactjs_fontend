@@ -1,0 +1,28 @@
+/* src/Header.css */
+
+.navbar {
+    padding: 0.8rem 1rem;
+    width: 100%;
+    /* Đảm bảo header rộng 100% */
+}
+
+.search-bar {
+    width: 50%;
+}
+
+.search-bar .form-control {
+    border-radius: 0;
+}
+
+.search-bar .btn {
+    border-radius: 0;
+}
+
+.nav-link {
+    font-size: 1.1rem;
+}
+
+.badge {
+    font-size: 0.8rem;
+    vertical-align: text-top;
+}

@@ -1,0 +1,108 @@
+/* Bố cục tổng quan của trang chi tiết sản phẩm */
+.product-detail {
+    background-color: #8c8c9c;
+    /* Nền trang nhẹ nhàng */
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 4px 20px rgba(237, 231, 231, 0.1);
+    /* Đổ bóng mềm */
+}
+.col-md-6.custom-bg {
+    background-color: #f0f8ff;
+    /* Màu nền nhẹ nhàng (AliceBlue) */
+    padding: 20px;
+    border-radius: 8px;
+}
+/* H1 tiêu đề */
+.product-detail h1 {
+    font-size: 2.5rem;
+    color: #493131;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Kiểu dáng ảnh sản phẩm */
+.product-detail img {
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(87, 85, 85, 0.1);
+    /* Đổ bóng nhẹ cho ảnh */
+    transition: transform 0.3s ease-in-out;
+    /* Hiệu ứng di chuyển ảnh */
+}
+
+.product-detail img:hover {
+    transform: scale(1.05);
+    /* Phóng to ảnh khi hover */
+}
+
+/* Phần thông tin sản phẩm */
+.product-info p {
+    font-size: 1.1rem;
+    color: #2b2424;
+    margin-bottom: 15px;
+}
+
+/* Làm nổi bật giá */
+.product-info .text-success {
+    font-size: 1.4rem;
+    color: #28a745;
+    /* Màu xanh của Bootstrap */
+    font-weight: bold;
+}
+
+/* Kiểu dáng nút bấm */
+.buttons .btn-secondary {
+    background-color: #6c757d;
+    /* Màu xám đẹp hơn */
+    border: none;
+    font-size: 1rem;
+}
+
+.buttons .btn-secondary:hover {
+    background-color: #313539;
+    /* Tối hơn khi hover */
+}
+
+.buttons .btn-danger {
+    background-color: #dc3545;
+    /* Màu đỏ đẹp hơn */
+    border: none;
+    font-size: 1rem;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+}
+
+.buttons .btn-danger:hover {
+    background-color: #d31629;
+    /* Tối hơn khi hover */
+}
+
+/* Loading spinner */
+.loading-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.spinner-border {
+    width: 4rem;
+    height: 4rem;
+    border-width: 0.3rem;
+}
+/* Container cho các nút */
+.buttons {
+    display: flex;
+    justify-content: flex-start;
+    /* Đặt các nút bắt đầu từ trái */
+    gap: 10px;
+    /* Khoảng cách giữa các nút */
+}
+
+.buttons .btn {
+    flex: 0 0 auto;
+    /* Đảm bảo các nút giữ kích thước theo nội dung */
+    padding: 10px 20px;
+    font-size: 1rem;
+}
